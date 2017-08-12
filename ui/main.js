@@ -6,7 +6,7 @@ element.innerHTML='New value';
 
 
 //move the image
-var element=document.getElementById=('bhatia');
+var element=document.getElementById('bhatia');
 img.onclick=function(){
     img.style.marginleft='100px';
     
