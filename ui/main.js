@@ -7,7 +7,12 @@ element.innerHTML='New value';
 
 //move the image
 var img=document.getElementById('bhatia');
+
+function moveRight(){
+    marginLeft=marginLeft+10;
+    img.style.marginLeft=marginLeft+'px';
+}
 img.onclick = function(){
-    img.style.marginleft='100px';
+    var interval=setInterval(moveRight,100);
     
 };
